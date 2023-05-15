@@ -39,3 +39,37 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+.btn {
+  display: block;
+  margin: 50px auto;
+  cursor: pointer;
+  background: #d91acc;
+  background-image: -webkit-linear-gradient(top, #d91acc, #1074e6);
+  background-image: -moz-linear-gradient(top, #d91acc, #1074e6);
+  background-image: -ms-linear-gradient(top, #d91acc, #1074e6);
+  background-image: -o-linear-gradient(top, #d91acc, #1074e6);
+  background-image: linear-gradient(to bottom, #d91acc, #1074e6);
+  -webkit-border-radius: 19;
+  -moz-border-radius: 19;
+  border-radius: 19px;
+  text-shadow: 4px 0px 3px #02030a;
+  -webkit-box-shadow: 1px 1px 3px #21cfbb;
+  -moz-box-shadow: 1px 1px 3px #21cfbb;
+  box-shadow: 1px 1px 3px #21cfbb;
+  font-family: Arial;
+  color: #ece8f0;
+  font-size: 40px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
